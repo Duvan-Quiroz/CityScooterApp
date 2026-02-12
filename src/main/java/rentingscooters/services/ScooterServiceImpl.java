@@ -9,7 +9,11 @@ public class ScooterServiceImpl implements ScooterService{
 
     @Override
     public Scooter createScooter(Scooter scooter) {
-        return null;
+        return scooter;
+    }
+
+    public void printScooter(Scooter scooter){
+        System.out.println("Id de Scooter: " +scooter.getIdVehicle());
     }
 
     @Override
